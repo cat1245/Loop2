@@ -86,6 +86,19 @@
                                         <next>
                                           <block type="multimedia_playwav" id="185">
                                             <field name="WAV">_start.w</field>
+                                            <next>
+                                              <block type="movement_forward" id="195">
+                                                <next>
+                                                  <block type="robot_delay" id="197" inline="true">
+                                                    <value name="DELAY">
+                                                      <block type="math_number" id="204">
+                                                        <field name="NUM">5000</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
                                           </block>
                                         </next>
                                       </block>
