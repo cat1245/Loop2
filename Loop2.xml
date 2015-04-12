@@ -85,7 +85,7 @@
                                         </value>
                                         <next>
                                           <block type="multimedia_playwav" id="185">
-                                            <field name="WAV">_start.w</field>
+                                            <field name="WAV">_SndTest.w</field>
                                             <next>
                                               <block type="movement_forward" id="195">
                                                 <next>
